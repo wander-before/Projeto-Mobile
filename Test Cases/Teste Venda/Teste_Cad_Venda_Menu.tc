@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teste cadastro de venda utilizando o caminho do menu de venda</description>
+   <name>Teste_Cad_Venda_Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05af5513-1656-41b2-9aad-9d44ede9ed3e</testCaseGuid>
+</TestCaseEntity>

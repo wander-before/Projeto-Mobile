@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancelar uma venda no quadro de vendas</description>
+   <name>Teste_Cancelar_Venda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dc80c07-5036-4f7b-8e3d-c9ceca544440</testCaseGuid>
+</TestCaseEntity>
