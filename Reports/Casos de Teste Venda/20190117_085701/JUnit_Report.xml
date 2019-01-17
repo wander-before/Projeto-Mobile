@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Casos de Teste Venda" time="153" tests="1" failures="2" errors="0">
+   <testsuite name="Casos de Teste Venda" tests="1" failures="2" errors="0" time="153" timestamp="2019-01-17 08:57:09" hostname="Wander - DESKTOP-F94FUJP" id="Test Suites/Casos de Teste Venda">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701"/>
+         <property name="logFiles" value="C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701\\1547722723286.png, C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701\\1547722781714.png"/>
+         <property name="hostName" value="Wander - DESKTOP-F94FUJP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="03b39a3675d66eaaa8c28f3e37629de8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Teste Venda/Teste_Cad_Venda_Menu" classname="Test Cases/Teste Venda/Teste_Cad_Venda_Menu" status="PASSED">
+         <system-out><![CDATA[2019-01-17 08:57:09 - [TEST_CASE][PASSED] - Test Cases/Teste Venda/Teste_Cad_Venda_Menu: Test Cases/Teste Venda/Teste_Cad_Venda_Menu
+
+2019-01-17 08:57:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Teste Tela de Login/Teste Login Valido"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:57:10 - [TEST_CASE][PASSED] - Test Cases/Teste Tela de Login/Teste Login Valido: Test Cases/Teste Tela de Login/Teste Login Valido
+
+2019-01-17 08:57:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 08:57:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 08:57:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-17 08:57:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 08:57:15 - [TEST_STEP][PASSED] - navigateToUrl("https://gemobile-beta.before.com.br/app/"): Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:57:18 - [MESSAGE][PASSED] - Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:57:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 08:57:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 08:57:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/FormLoginSenha"), 30): Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:57:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoLogin"), "proprietário.open"): Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:19 - [MESSAGE][PASSED] - Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoSenha"), "venus2018"): Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:19 - [MESSAGE][PASSED] - Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_TelaLogin/Bt_Entrar")): Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:57:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/imgLogoTelaInicial"), 5): Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:57:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:57:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page Cancelar Venda/MenuVenda")): Object: 'Object Repository/Page_Gemobile_Venda/Page Cancelar Venda/MenuVenda' is clicked on
+
+2019-01-17 08:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page Cancelar Venda/MenuVenda' is clicked on
+
+2019-01-17 08:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SubMenuVenda")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SubMenuVenda' is clicked on
+
+2019-01-17 08:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SubMenuVenda' is clicked on
+
+2019-01-17 08:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page Cancelar Venda/Op_Venda")): Object: 'Object Repository/Page_Gemobile_Venda/Page Cancelar Venda/Op_Venda' is clicked on
+
+2019-01-17 08:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page Cancelar Venda/Op_Venda' is clicked on
+
+2019-01-17 08:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/InserirNovaVenda")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/InserirNovaVenda' is clicked on
+
+2019-01-17 08:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/InserirNovaVenda' is clicked on
+
+2019-01-17 08:57:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:57:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial"), "39", false): All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:57:27 - [MESSAGE][PASSED] - All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:57:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:57:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:57:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa"), "1", false): All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:57:28 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:57:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular"), "0000"): Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:57:29 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:57:29 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:57:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:57:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:57:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:57:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:57:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:57:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo"), "XT171"): Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:57:34 - [MESSAGE][PASSED] - Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:57:34 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:57:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:57:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is present
+
+2019-01-17 08:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is present
+
+2019-01-17 08:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is clicked on
+
+2019-01-17 08:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is clicked on
+
+2019-01-17 08:57:38 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-01-17 08:57:38 - [MESSAGE][PASSED] - Alert accepted
+
+2019-01-17 08:57:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-17 08:57:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvaProduto")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvaProduto' is clicked on
+
+2019-01-17 08:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvaProduto' is clicked on
+
+2019-01-17 08:57:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:57:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/ModalPagamento"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/ModalPagamento' is present
+
+2019-01-17 08:57:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/ModalPagamento' is present
+
+2019-01-17 08:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpPag_Dinheiro")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpPag_Dinheiro' is clicked on
+
+2019-01-17 08:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpPag_Dinheiro' is clicked on
+
+2019-01-17 08:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AddPag")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AddPag' is clicked on
+
+2019-01-17 08:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AddPag' is clicked on
+
+2019-01-17 08:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag' is clicked on
+
+2019-01-17 08:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag' is clicked on
+
+2019-01-17 08:57:42 - [TEST_STEP][PASSED] - waitForAlert(1): No alert found after 1 second(s).
+
+2019-01-17 08:57:43 - [MESSAGE][WARNING] - No alert found after 1 second(s).
+
+2019-01-17 08:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Fechar_Alert"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Fechar_Alert' is clicked on
+
+2019-01-17 08:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Fechar_Alert' is clicked on
+
+2019-01-17 08:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoLogin"), "proprietário.open"): Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:44 - [MESSAGE][PASSED] - Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoSenha"), "venus2018"): Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:44 - [MESSAGE][PASSED] - Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarAuten")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarAuten' is clicked on
+
+2019-01-17 08:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarAuten' is clicked on
+
+2019-01-17 08:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag' is clicked on
+
+2019-01-17 08:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag' is clicked on
+
+2019-01-17 08:57:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Alert_VendaInseridaComSucesso"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Alert_VendaInseridaComSucesso' is present
+
+2019-01-17 08:57:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Alert_VendaInseridaComSucesso' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teste Venda/Teste_Cancelar_Venda" classname="Test Cases/Teste Venda/Teste_Cancelar_Venda" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Teste Venda/Teste_Cancelar_Venda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick=&quot;escolherProduto('36388400781128', '39', '93');&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-17 08:57:45 - [TEST_CASE][FAILED] - Test Cases/Teste Venda/Teste_Cancelar_Venda: Test Cases/Teste Venda/Teste_Cancelar_Venda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:57:45 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Teste Venda/Teste_Venda_BotaoVenda"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("Teste Venda/Teste_Venda_BotaoVenda"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:57:45 - [TEST_CASE][FAILED] - Test Cases/Teste Venda/Teste_Venda_BotaoVenda: Test Cases/Teste Venda/Teste_Venda_BotaoVenda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:57:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Teste Tela de Login/Teste Login Valido"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:57:45 - [TEST_CASE][PASSED] - Test Cases/Teste Tela de Login/Teste Login Valido: Test Cases/Teste Tela de Login/Teste Login Valido
+
+2019-01-17 08:57:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 08:57:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-17 08:57:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 08:57:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 08:57:49 - [TEST_STEP][PASSED] - navigateToUrl("https://gemobile-beta.before.com.br/app/"): Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:57:50 - [MESSAGE][PASSED] - Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:57:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 08:57:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 08:57:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/FormLoginSenha"), 30): Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:57:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoLogin"), "proprietário.open"): Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:52 - [MESSAGE][PASSED] - Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoSenha"), "venus2018"): Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:52 - [MESSAGE][PASSED] - Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:57:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_TelaLogin/Bt_Entrar")): Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:57:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/imgLogoTelaInicial"), 5): Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:57:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:57:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda' is clicked on
+
+2019-01-17 08:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda' is clicked on
+
+2019-01-17 08:57:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:57:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:57:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial"), "39", false): All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:57:58 - [MESSAGE][PASSED] - All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:57:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:57:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:57:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa"), "1", false): All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:57:59 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:57:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:57:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular"), "0000"): Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:58:00 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:58:00 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:58:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:58:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:58:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:58:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:58:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo"), "XT171"): Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:58:06 - [MESSAGE][PASSED] - Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:58:06 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:58:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:58:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar"), 3): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is not present after 3 second(s)
+
+2019-01-17 08:58:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-17 08:58:11 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is not present after 3 second(s)
+
+2019-01-17 08:58:11 - [TEST_STEP][FAILED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")): click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:58:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-17 08:58:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+[[ATTACHMENT|C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701\\1547722723286.png]]
+
+2019-01-17 08:58:43 - [MESSAGE][FAILED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:58:43 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Teste Venda/Teste_Venda_BotaoVenda' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Teste Venda/Teste_Venda_BotaoVenda' failed)
+
+2019-01-17 08:58:43 - [MESSAGE][FAILED] - callTestCase(findTestCase("Teste Venda/Teste_Venda_BotaoVenda"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-17 08:57:45 - [TEST_CASE][FAILED] - Test Cases/Teste Venda/Teste_Cancelar_Venda: Test Cases/Teste Venda/Teste_Cancelar_Venda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teste Venda/Teste_Venda_BotaoVenda" classname="Test Cases/Teste Venda/Teste_Venda_BotaoVenda" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Teste Venda/Teste_Venda_BotaoVenda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick=&quot;escolherProduto('36388400781128', '39', '93');&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-17 08:58:43 - [TEST_CASE][FAILED] - Test Cases/Teste Venda/Teste_Venda_BotaoVenda: Test Cases/Teste Venda/Teste_Venda_BotaoVenda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:58:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Teste Tela de Login/Teste Login Valido"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:58:43 - [TEST_CASE][PASSED] - Test Cases/Teste Tela de Login/Teste Login Valido: Test Cases/Teste Tela de Login/Teste Login Valido
+
+2019-01-17 08:58:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-17 08:58:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-17 08:58:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-17 08:58:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-17 08:58:46 - [TEST_STEP][PASSED] - navigateToUrl("https://gemobile-beta.before.com.br/app/"): Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:58:49 - [MESSAGE][PASSED] - Navigate to 'https://gemobile-beta.before.com.br/app/' successfully
+
+2019-01-17 08:58:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-17 08:58:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-17 08:58:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/FormLoginSenha"), 30): Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/FormLoginSenha' is present
+
+2019-01-17 08:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoLogin"), "proprietário.open"): Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:58:50 - [MESSAGE][PASSED] - Text 'proprietário.open' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoLogin'
+
+2019-01-17 08:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_TelaLogin/SetCampoSenha"), "venus2018"): Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:58:50 - [MESSAGE][PASSED] - Text 'venus2018' is set on object 'Object Repository/Page_Gemobile_TelaLogin/SetCampoSenha'
+
+2019-01-17 08:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_TelaLogin/Bt_Entrar")): Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_TelaLogin/Bt_Entrar' is clicked on
+
+2019-01-17 08:58:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_TelaLogin/imgLogoTelaInicial"), 5): Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_TelaLogin/imgLogoTelaInicial' is present
+
+2019-01-17 08:58:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teste Tela de Login/Teste Login Valido' successfully
+
+2019-01-17 08:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda' is clicked on
+
+2019-01-17 08:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda' is clicked on
+
+2019-01-17 08:58:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:58:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro' is visible
+
+2019-01-17 08:58:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial"), "39", false): All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:58:57 - [MESSAGE][PASSED] - All options with value '39' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial' 
+
+2019-01-17 08:58:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:58:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:58:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa"), "1", false): All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:58:58 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa' 
+
+2019-01-17 08:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:58:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente"), 0): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:58:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-17 08:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente' is present
+
+2019-01-17 08:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular' is clicked on
+
+2019-01-17 08:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular"), "0000"): Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:58:59 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular'
+
+2019-01-17 08:58:59 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:59:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal' is clicked on
+
+2019-01-17 08:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick' is clicked on
+
+2019-01-17 08:59:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:59:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:59:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad' is clicked on
+
+2019-01-17 08:59:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-17 08:59:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-17 08:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto' is clicked on
+
+2019-01-17 08:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo' is clicked on
+
+2019-01-17 08:59:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo"), "XT171"): Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:59:04 - [MESSAGE][PASSED] - Text 'XT171' is set on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo'
+
+2019-01-17 08:59:04 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-01-17 08:59:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-17 08:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1' is clicked on
+
+2019-01-17 08:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar")): Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar' is clicked on
+
+2019-01-17 08:59:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar"), 3): Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is not present after 3 second(s)
+
+2019-01-17 08:59:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-17 08:59:10 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' is not present after 3 second(s)
+
+2019-01-17 08:59:10 - [TEST_STEP][FAILED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")): click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)
+
+
+2019-01-17 08:59:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-17 08:59:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+[[ATTACHMENT|C:\\Users\\Wander\\Katalon Studio\\Projeto Gemobile\\Reports\\Casos de Teste Venda\\20190117_085701\\1547722781714.png]]
+
+2019-01-17 08:59:41 - [MESSAGE][FAILED] - click(findTestObject("Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-17 08:58:43 - [TEST_CASE][FAILED] - Test Cases/Teste Venda/Teste_Venda_BotaoVenda: Test Cases/Teste Venda/Teste_Venda_BotaoVenda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 08:57:09 - [TEST_SUITE][FAILED] - Casos de Teste Venda: Test Cases/Teste Venda/Teste_Cancelar_Venda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-17 08:57:09 - [TEST_SUITE][FAILED] - Casos de Teste Venda: Test Cases/Teste Venda/Teste_Cancelar_Venda FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar' located by 'By.xpath: //img[@onclick="escolherProduto('36388400781128', '39', '93');"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Teste_Venda_BotaoVenda.run(Teste_Venda_BotaoVenda:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Teste_Cancelar_Venda.run(Teste_Cancelar_Venda:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547722626386.run(TempTestSuite1547722626386.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

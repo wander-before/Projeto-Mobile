@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Casos de Teste Venda,Chrome 71.0.3578.98,"- Cadastro de venda pelo Menu\n- Cadastro de venda pelo bot\u00E3o \""Realizar Venda\""\n- Cancelar venda ap\u00F3s criar uma venda",2019-01-16 18:55:06,2019-01-16 18:57:30,"2m - 24,658s",FAILED
+,,,,,,
+Test Cases/Teste Venda/Teste_Cad_Venda_Menu,Chrome 71.0.3578.98,Teste cadastro de venda utilizando o caminho do menu de venda,2019-01-16 18:55:06,2019-01-16 18:55:52,"45,362s",PASSED
+"callTestCase(findTestCase(""Teste Tela de Login/Teste Login Valido""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:55:07,2019-01-16 18:55:24,"16,270s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/MenuVenda""))",Chrome 71.0.3578.98,,2019-01-16 18:55:24,2019-01-16 18:55:24,"0,217s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SubMenuVenda""))",Chrome 71.0.3578.98,,2019-01-16 18:55:24,2019-01-16 18:55:24,"0,166s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/Op_Venda""))",Chrome 71.0.3578.98,,2019-01-16 18:55:24,2019-01-16 18:55:25,"0,693s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/InserirNovaVenda""))",Chrome 71.0.3578.98,,2019-01-16 18:55:25,2019-01-16 18:55:25,"0,180s",PASSED
+"waitForElementVisible(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:55:25,2019-01-16 18:55:25,"0,150s",PASSED
+"selectOptionByValue(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial""), ""39"", false)",Chrome 71.0.3578.98,,2019-01-16 18:55:25,2019-01-16 18:55:26,"0,808s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:55:26,2019-01-16 18:55:27,"1,015s",PASSED
+"selectOptionByValue(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa""), ""1"", false)",Chrome 71.0.3578.98,,2019-01-16 18:55:27,2019-01-16 18:55:27,"0,169s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad""))",Chrome 71.0.3578.98,,2019-01-16 18:55:27,2019-01-16 18:55:27,"0,163s",PASSED
+"waitForElementPresent(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:55:27,2019-01-16 18:55:27,"0,069s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular""))",Chrome 71.0.3578.98,,2019-01-16 18:55:27,2019-01-16 18:55:27,"0,179s",PASSED
+"setText(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular""), ""0000"")",Chrome 71.0.3578.98,,2019-01-16 18:55:27,2019-01-16 18:55:28,"0,461s",PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:55:28,2019-01-16 18:55:30,"2,004s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal""))",Chrome 71.0.3578.98,,2019-01-16 18:55:30,2019-01-16 18:55:30,"0,153s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick""))",Chrome 71.0.3578.98,,2019-01-16 18:55:30,2019-01-16 18:55:30,"0,149s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:55:30,2019-01-16 18:55:31,"1,006s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad""))",Chrome 71.0.3578.98,,2019-01-16 18:55:31,2019-01-16 18:55:31,"0,129s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:55:31,2019-01-16 18:55:32,"1,002s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProduto""))",Chrome 71.0.3578.98,,2019-01-16 18:55:32,2019-01-16 18:55:32,"0,134s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpProdPorModelo""))",Chrome 71.0.3578.98,,2019-01-16 18:55:32,2019-01-16 18:55:33,"0,144s",PASSED
+"setText(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoModelo""), ""XT171"")",Chrome 71.0.3578.98,,2019-01-16 18:55:33,2019-01-16 18:55:33,"0,734s",PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:55:33,2019-01-16 18:55:35,"2,004s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_Teste XT1710 Branco MOTOROL1""))",Chrome 71.0.3578.98,,2019-01-16 18:55:35,2019-01-16 18:55:35,"0,143s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Buscar""))",Chrome 71.0.3578.98,,2019-01-16 18:55:35,2019-01-16 18:55:36,"0,116s",PASSED
+"waitForElementPresent(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:55:36,2019-01-16 18:55:37,"1,647s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/imgConfirmar""))",Chrome 71.0.3578.98,,2019-01-16 18:55:37,2019-01-16 18:55:37,"0,171s",PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-16 18:55:37,2019-01-16 18:55:37,"0,065s",PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-16 18:55:37,2019-01-16 18:55:39,"2,004s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvaProduto""))",Chrome 71.0.3578.98,,2019-01-16 18:55:39,2019-01-16 18:55:40,"0,168s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:55:40,2019-01-16 18:55:41,"1,002s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad""))",Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:41,"0,158s",PASSED
+"waitForElementPresent(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/ModalPagamento""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:41,"0,079s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/OpPag_Dinheiro""))",Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:41,"0,130s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AddPag""))",Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:41,"0,197s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag""))",Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:41,"0,220s",PASSED
+waitForAlert(1),Chrome 71.0.3578.98,,2019-01-16 18:55:41,2019-01-16 18:55:42,"1,081s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Fechar_Alert""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:55:42,2019-01-16 18:55:43,"0,110s",PASSED
+"setText(findTestObject(""Page_Gemobile_TelaLogin/SetCampoLogin""), ""proprietário.open"")",Chrome 71.0.3578.98,,2019-01-16 18:55:43,2019-01-16 18:55:43,"0,760s",PASSED
+"setText(findTestObject(""Page_Gemobile_TelaLogin/SetCampoSenha""), ""venus2018"")",Chrome 71.0.3578.98,,2019-01-16 18:55:43,2019-01-16 18:55:44,"0,256s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarAuten""))",Chrome 71.0.3578.98,,2019-01-16 18:55:44,2019-01-16 18:55:44,"0,116s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_SalvarPag""))",Chrome 71.0.3578.98,,2019-01-16 18:55:44,2019-01-16 18:55:44,"0,134s",PASSED
+"verifyElementPresent(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Alert_VendaInseridaComSucesso""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:55:44,2019-01-16 18:55:44,"0,075s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/OpAcoes""))",Chrome 71.0.3578.98,,2019-01-16 18:55:44,2019-01-16 18:55:45,"1,155s",PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-16 18:55:45,2019-01-16 18:55:48,"3,002s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/OpCancelar""))",Chrome 71.0.3578.98,,2019-01-16 18:55:48,2019-01-16 18:55:48,"0,109s",PASSED
+"waitForElementPresent(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/DivCancelarVenda""), 3)",Chrome 71.0.3578.98,,2019-01-16 18:55:48,2019-01-16 18:55:51,"3,138s",PASSED
+"setText(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/SetCampoMotivoCancelamento""), ""Teste cancelar uma venda"")",Chrome 71.0.3578.98,,2019-01-16 18:55:51,2019-01-16 18:55:52,"0,286s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Motivo de Cancelamento""))",Chrome 71.0.3578.98,,2019-01-16 18:55:52,2019-01-16 18:55:52,"0,133s",PASSED
+,,,,,,
+Test Cases/Teste Venda/Teste_Cancelar_Venda,Chrome 71.0.3578.98,Cancelar uma venda no quadro de vendas,2019-01-16 18:55:52,2019-01-16 18:57:07,"1m - 15,449s",FAILED
+"callTestCase(findTestCase(""Teste Venda/Teste_Venda_BotaoVenda""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:55:52,2019-01-16 18:56:32,"40,196s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/OpAcoes""))",Chrome 71.0.3578.98,,2019-01-16 18:56:32,2019-01-16 18:56:32,"0,119s",PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-16 18:56:32,2019-01-16 18:56:35,"3,001s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page Cancelar Venda/OpCancelar""))",Chrome 71.0.3578.98,,2019-01-16 18:56:35,2019-01-16 18:57:07,"31,795s",FAILED
+,,,,,,
+Test Cases/Teste Venda/Teste_Venda_BotaoVenda,Chrome 71.0.3578.98,Realizar uma venda pelo botão de venda na tela inicial,2019-01-16 18:57:07,2019-01-16 18:57:29,"22,207s",FAILED
+"callTestCase(findTestCase(""Teste Tela de Login/Teste Login Valido""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:57:07,2019-01-16 18:57:23,"15,515s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_RealizarVenda""))",Chrome 71.0.3578.98,,2019-01-16 18:57:23,2019-01-16 18:57:23,"0,203s",PASSED
+"waitForElementVisible(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormCadastro""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:57:23,2019-01-16 18:57:23,"0,101s",PASSED
+"selectOptionByValue(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_EscolhaFilial""), ""39"", false)",Chrome 71.0.3578.98,,2019-01-16 18:57:23,2019-01-16 18:57:24,"0,781s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:57:24,2019-01-16 18:57:25,"1,001s",PASSED
+"selectOptionByValue(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Select_Escolha...Caixa""), ""1"", false)",Chrome 71.0.3578.98,,2019-01-16 18:57:25,2019-01-16 18:57:25,"0,147s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad""))",Chrome 71.0.3578.98,,2019-01-16 18:57:25,2019-01-16 18:57:25,"0,157s",PASSED
+"waitForElementPresent(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionarOpDeCliente""), 0)",Chrome 71.0.3578.98,,2019-01-16 18:57:25,2019-01-16 18:57:25,"0,058s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SelecionaCelular""))",Chrome 71.0.3578.98,,2019-01-16 18:57:25,2019-01-16 18:57:25,"0,168s",PASSED
+"setText(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/SetCampoCelular""), ""0000"")",Chrome 71.0.3578.98,,2019-01-16 18:57:25,2019-01-16 18:57:26,"0,296s",PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-16 18:57:26,2019-01-16 18:57:28,"2,002s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/li_00 00000-0000 - Teste Katal""))",Chrome 71.0.3578.98,,2019-01-16 18:57:28,2019-01-16 18:57:28,"0,117s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/FormClienteClick""))",Chrome 71.0.3578.98,,2019-01-16 18:57:28,2019-01-16 18:57:28,"0,154s",PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-16 18:57:28,2019-01-16 18:57:29,"1,001s",PASSED
+"click(findTestObject(""Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_AvancaCad""))",Chrome 71.0.3578.98,,2019-01-16 18:57:29,2019-01-16 18:57:29,"0,405s",FAILED

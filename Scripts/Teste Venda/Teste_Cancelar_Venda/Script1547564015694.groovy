@@ -15,17 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Teste Venda/Teste_Venda_BotaoVenda'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Gemobile_Venda/OpAcoes'))
+WebUI.click(findTestObject('Page_Gemobile_Venda/Page Cancelar Venda/OpAcoes'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Gemobile_Venda/OpCancelar'))
+WebUI.click(findTestObject('Page_Gemobile_Venda/Page Cancelar Venda/OpCancelar'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Gemobile_Venda/DivCancelarVenda'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Gemobile_Venda/Page Cancelar Venda/DivCancelarVenda'), 3)
 
-WebUI.setText(findTestObject('Page_Gemobile_Venda/SetCampoMotivoCancelamento'), 'Teste cancelar uma venda')
+WebUI.setText(findTestObject('Page_Gemobile_Venda/Page Cancelar Venda/SetCampoMotivoCancelamento'), 'Teste cancelar uma venda')
 
-WebUI.click(findTestObject('Page_Gemobile_Venda/Bt_Motivo de Cancelamento'))
+WebUI.click(findTestObject('Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Bt_Motivo de Cancelamento'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Gemobile_Venda/Alert_Venda cancelada com sucess'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Gemobile_Venda/Page VendaMenu_VendaBotao/Alert_Venda cancelada com sucess'), 
+    0)
+
+WebUI.closeBrowser()
 
