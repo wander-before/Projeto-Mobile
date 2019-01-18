@@ -1,110 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>imgConfirmar</name>
+   <name>fecharModalBuscaSerial</name>
    <tag></tag>
-   <elementGuidId>ff3d67e4-c693-469f-a88e-f3f2e8b5c1e5</elementGuidId>
+   <elementGuidId>416afcde-1df4-4ce7-9814-fb4dfcef0951</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[8]/div[4]/div[2]/table[1]/tbody[1]/tr[2]/td[5]/img[1]</value>
+         <value>//a[@onclick=&quot;$(this).parents().eq(2).css('display', 'none');$('body').removeClass('noscrollBody');$('#lente2').hide();$('#aviso').hide(); exibirOuOcultarLista('.sale-list-venda-produto', '#venda-cadastrada-produto');&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>class</name>
       <type>Main</type>
-      <value>images/bt_correto.gif</value>
+      <value>bt-close</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>escolherProduto('36388400781128', '39', '93');</value>
+      <value>$(this).parents().eq(2).css('display', 'none');$('body').removeClass('noscrollBody');$('#lente2').hide();$('#aviso').hide(); exibirOuOcultarLista('.sale-list-venda-produto', '#venda-cadastrada-produto');</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Escolher esse serial</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>Escolher</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;prod_93&quot;)/td[5]/img[1]</value>
+      <value>id(&quot;modalf_nav&quot;)/div[@class=&quot;modal__content&quot;]/header[@class=&quot;modal__header&quot;]/a[@class=&quot;bt-close&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//img[@onclick=&quot;escolherProduto('36388400781128', '39', '93');&quot;]</value>
+      <value>//a[@onclick=&quot;$(this).parents().eq(2).css('display', 'none');$('body').removeClass('noscrollBody');$('#lente2').hide();$('#aviso').hide(); exibirOuOcultarLista('.sale-list-venda-produto', '#venda-cadastrada-produto');&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//tr[@id='prod_93']/td[5]/img</value>
+      <value>//div[@id='modalf_nav']/div/header/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teste Novo'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar produto'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorola'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produto'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disponibilidade em outras Filiais'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serial:'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filial'])[1]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <value>//img[@alt='Escolher']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmar serial'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/img</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <value>/html[1]/body[1]/div[8]/div[4]/div[2]/table[1]/tbody[1]/tr[2]/td[5]/img[1]</value>
+      <value>//div[2]/div/div/div/div/header/a</value>
    </webElementXpaths>
 </WebElementEntity>

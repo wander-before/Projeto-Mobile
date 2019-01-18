@@ -1,110 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>imgConfirmar</name>
+   <name>button_BuscaSerial</name>
    <tag></tag>
-   <elementGuidId>ff3d67e4-c693-469f-a88e-f3f2e8b5c1e5</elementGuidId>
+   <elementGuidId>d9aabba1-66b5-43a3-81a3-1c6f24ddbeb8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[8]/div[4]/div[2]/table[1]/tbody[1]/tr[2]/td[5]/img[1]</value>
+         <value>(//button[@type='button'])[16]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>class</name>
       <type>Main</type>
-      <value>images/bt_correto.gif</value>
+      <value>bt-main</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>escolherProduto('36388400781128', '39', '93');</value>
+      <value>if($('#buscaProd').val()!=''){_makeRequest('prodVenda.php','&amp;fi_id='+document.getElementById('fi_id').value+'&amp;id=&amp;prod_ids='+retornaProdutosVenda()+'&amp;ep_serial='+escape($('#buscaProd').val()));}else{return false;}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Escolher esse serial</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>Escolher</value>
+      <value>Confirmar serial</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;prod_93&quot;)/td[5]/img[1]</value>
+      <value>id(&quot;modalf_nav&quot;)/div[@class=&quot;modal__content&quot;]/div[@class=&quot;modal__body&quot;]/div[@class=&quot;form-std form-std--sale&quot;]/fieldset[@class=&quot;spacing-medium&quot;]/div[@class=&quot;form-line&quot;]/div[@class=&quot;half-input&quot;]/button[@class=&quot;bt-main&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//img[@onclick=&quot;escolherProduto('36388400781128', '39', '93');&quot;]</value>
+      <value>(//button[@type='button'])[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//tr[@id='prod_93']/td[5]/img</value>
+      <value>//div[@id='modalf_nav']/div/div/div/fieldset/div/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teste Novo'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serial:'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motorola'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar produto'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disponibilidade em outras Filiais'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produto'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filial'])[1]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <value>//img[@alt='Escolher']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serial:'])[3]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[5]/img</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <value>/html[1]/body[1]/div[8]/div[4]/div[2]/table[1]/tbody[1]/tr[2]/td[5]/img[1]</value>
+      <value>//fieldset/div/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

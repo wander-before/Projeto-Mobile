@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teste para validar mensagem de alertas dos campos, quando os mesmo não forem informados</description>
+   <name>Teste_Validar_Mensagens_Venda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cc7bc7e-560f-4296-86c6-09028a66256f</testCaseGuid>
+</TestCaseEntity>
